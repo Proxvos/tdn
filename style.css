@@ -1,0 +1,116 @@
+body {
+     background: url("-3.PNG");
+     background-size: cover;
+     margin: 0px;
+     font-family: "Comic Sans MS",Arial;
+}
+
+img {
+    width:140px;
+    height:180px;
+}
+
+#grad1 {
+   color:#ff00ff;
+   font-size:80px;
+   padding:70px;
+   height: 100px;
+   background: red;
+   background: linear-gradient(to right, red, orange, yellow, green);
+   text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;   
+}
+
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding:14px 16px;
+     border-radius: 6px;
+     text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5300ff;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 14px 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.box-shadow {
+    width: 150px;
+    height: 220px;
+    margin: 10px;
+    padding: 16px;
+    background-color: black;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 140px;
+    height: 220px;
+    margin: 40px;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+a {
+  color: #f2f3f4;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
